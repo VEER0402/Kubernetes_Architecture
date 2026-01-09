@@ -24,3 +24,21 @@ Worker Nodes (Hands that do the work)
 
 Below is the simplest and clearest text‑based diagram that explains everything.
 
+
+
+
+
+
+✅ Kubernetes Components — Explained in Human Language
+
+🔵 DATA PLANE (Worker Nodes)
+
+These machines run your actual application.
+
+1️⃣ Container Runtime (Docker / containerd)
+
+Runs your containers.
+
+Real-life example:
+
+Jaise restaurant me chef actual food banata hai, waise container runtime actual container run karta hai.
