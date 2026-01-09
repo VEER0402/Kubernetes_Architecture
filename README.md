@@ -18,7 +18,7 @@ Control Plane (Brain)
 Worker Nodes (Hands that do the work)
 
 ============================================================================================
-==========================================================================================
+========================================================================
 
 
 🧠 Kubernetes Architecture
@@ -28,6 +28,10 @@ Below is the simplest and clearest text‑based diagram that explains everything
 
 <img width="1024" height="1024" alt="k8sarchitecture" src="https://github.com/user-attachments/assets/b13554eb-3bfe-4caa-afd6-ea5d3e16aed3" />
 
+
+
+============================================================================================
+========================================================================
 
 
 
@@ -48,6 +52,10 @@ Jaise restaurant me chef actual food banata hai, waise container runtime actual 
 
 
 
+============================================================================================
+========================================================================
+
+
 2️⃣ Kubelet
 
 Node ka manager.
@@ -64,6 +72,10 @@ Aapka payment service crash ho gaya → kubelet automatically naya pod chala deg
 
 
 
+
+
+============================================================================================
+========================================================================
 
 
 3️⃣ kube-proxy
@@ -85,6 +97,12 @@ Ye decide karta hai ki cluster kaise chalega.
 
 
 
+
+============================================================================================
+========================================================================
+
+
+
 1️⃣ API Server — Heart of Kubernetes
 
 Sab commands (kubectl, UI, CI/CD) yahin se pass hoti hain.
@@ -92,6 +110,13 @@ Sab commands (kubectl, UI, CI/CD) yahin se pass hoti hain.
 Real-life example:
 
 Aap order dete ho → "3 pizzas chahiye" → Manager (API Server) request register karta hai.
+
+
+
+
+
+============================================================================================
+========================================================================
 
 
 
@@ -127,6 +152,12 @@ Restaurant ka master notebook jisme sab orders likhe hote hain.
 
 
 
+============================================================================================
+========================================================================
+
+
+
+
 
 4️⃣ Controller Manager
 
@@ -139,6 +170,11 @@ Desired replicas = actual replicas maintain karta hai
 Real-life example:
 
 Aapne 3 waiters decide kiye → ek chala gaya → manager instantly replacement bhej deta hai.
+
+
+
+============================================================================================
+========================================================================
 
 
 
@@ -156,6 +192,10 @@ Node health manage karna
 Real-life example:
 
 Cloud bolta hai: "LoadBalancer service? Ok, main AWS ELB create kar deta hoon."
+
+
+============================================================================================
+========================================================================
 
 
 
