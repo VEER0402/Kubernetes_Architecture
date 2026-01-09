@@ -17,7 +17,7 @@ Control Plane (Brain)
 
 Worker Nodes (Hands that do the work)
 
-
+=======================================================================================================
 
 
 🧠 Kubernetes Architecture
